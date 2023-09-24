@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirti Fitness Hub</title>
+</head>
+
+<linK rel="stylesheet" href="style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(https://as1.ftcdn.net/v2/jpg/00/62/21/60/1000_F_62216031_L99uh6DaTeBnMXisfVIGop05qIE4DBpO.jpg);
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 2px;
+    }
+    
+    .left img {
+        width: 100px;
+        margin: 10px auto;
+        padding-left: 14px;
+    }
+    
+    .left div {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: url("https://fonts.google.com/specimen/Lobster");
+    }
+    
+    .mid {
+        display: block;
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 2px;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+    }
+    
+    .btn {
+        margin: 0px 0px;
+        background-color: lightskyblue;
+        padding: 4px 14px;
+        border: 2px solid rgb(7, 7, 7);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .navbar li a {
+        padding: 34px 23px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: red;
+    }
+    
+    .container {
+        margin: 95px 100px 0px;
+        padding: 30px;
+        width: 60%;
+        display: block;
+        border-radius: 15px;
+        text-align: center;
+        color: blue;
+    }
+    
+    .formg input {
+        text-align: center;
+        display: block;
+        width: 250px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 6px auto;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    
+    .container button {
+        width: 74%;
+        display: block;
+        margin: 20px auto;
+        color: blue;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <!--left box for logo-->
+            <img src="https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.webp">
+            <div> FITNESS HUB </div>
+        </div>
+
+        <div class="mid">
+            <!--mid box for navigation bar-->
+            <ul class="navbar">
+
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FitnessCalculator</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+
+            <!--right box for some details-->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym on your Locality here</h1>
+        <form action="noaction.php">
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Phone No.">
+            </div>
+            <div class="formg">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
